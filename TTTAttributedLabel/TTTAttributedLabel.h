@@ -90,6 +90,8 @@ extern NSString * const kTTTBackgroundCornerRadiusAttributeName;
  */
 @interface TTTAttributedLabel : UILabel <TTTAttributedLabel, UIGestureRecognizerDelegate>
 
+@property (nonatomic, strong) UIColor *linkColor;
+
 ///-----------------------------
 /// @name Accessing the Delegate
 ///-----------------------------
